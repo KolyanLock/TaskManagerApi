@@ -1,0 +1,32 @@
+spring:
+  config:
+    import: classpath:secret.yml
+
+  datasource:
+    url: ${dbUrl}
+    username: ${dbUsername}
+    password: ${dbPassword}
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate.ddl-auto: none
+
+server:
+  error:
+    include-exception: true
+    include-message: always
+
+jwt:
+  secret-key: ${secretKey}
+  lifetime-hours: 1
+
+admin:
+  username: ${adminUsername}
+  password: ${adminPassword}
+
+#info:
+#  name: Task Manager Api
+#  description: "Spring Boot REST API application. \
+#  This application serves to manage the tasks that users create."
+#  author: Nikolai T

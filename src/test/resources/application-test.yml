@@ -1,0 +1,30 @@
+spring:
+  config:
+    import: classpath:secret.yml
+
+  datasource:
+    url: jdbc:h2:mem:test_db
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  flyway:
+    locations: filesystem:src/test/resources/db/migration
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate.ddl-auto: none
+
+server:
+  error:
+    include-exception: true
+    include-message: always
+
+jwt:
+  secret-key: ${secretKey}
+  lifetime-hours: 1
+
+admin:
+  username: ${adminUsername}
+  password: ${adminPassword}

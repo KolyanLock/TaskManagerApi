@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Description for jwt.secret-key."
+    },
+    {
+      "name": "spring.jpa.server.error.include-exception",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.server.error.include-exception."
+    },
+    {
+      "name": "jwt.lifetime-hours",
+      "type": "java.lang.String",
+      "description": "Description for jwt.lifetime-hours."
+    }
+  ] }
