@@ -2,10 +2,10 @@ package org.kolyanlock.taskmanagerapi.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.kolyanlock.taskmanagerapi.dto.UserInfoDTO;
 import org.kolyanlock.taskmanagerapi.dto.TokenDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserAuthDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserDTO;
+import org.kolyanlock.taskmanagerapi.dto.UserInfoDTO;
 import org.kolyanlock.taskmanagerapi.facade.UserFacade;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

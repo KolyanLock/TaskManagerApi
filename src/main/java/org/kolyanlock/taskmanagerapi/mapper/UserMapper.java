@@ -1,7 +1,7 @@
 package org.kolyanlock.taskmanagerapi.mapper;
 
-import org.kolyanlock.taskmanagerapi.dto.UserDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserAuthDTO;
+import org.kolyanlock.taskmanagerapi.dto.UserDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserDeletedDTO;
 import org.kolyanlock.taskmanagerapi.entity.User;
 import org.mapstruct.Mapper;

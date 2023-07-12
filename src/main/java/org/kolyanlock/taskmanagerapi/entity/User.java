@@ -6,7 +6,8 @@ import lombok.Data;
 import org.kolyanlock.taskmanagerapi.role.UserRole;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")

@@ -1,6 +1,5 @@
 package org.kolyanlock.taskmanagerapi.service;
 
-import org.kolyanlock.taskmanagerapi.dto.UserAuthDTO;
 import org.kolyanlock.taskmanagerapi.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

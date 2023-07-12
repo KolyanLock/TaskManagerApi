@@ -2,10 +2,10 @@ package org.kolyanlock.taskmanagerapi.facade.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.kolyanlock.taskmanagerapi.config.JwtTokenUtil;
-import org.kolyanlock.taskmanagerapi.dto.UserDeletedDTO;
-import org.kolyanlock.taskmanagerapi.dto.UserInfoDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserAuthDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserDTO;
+import org.kolyanlock.taskmanagerapi.dto.UserDeletedDTO;
+import org.kolyanlock.taskmanagerapi.dto.UserInfoDTO;
 import org.kolyanlock.taskmanagerapi.entity.User;
 import org.kolyanlock.taskmanagerapi.facade.UserFacade;
 import org.kolyanlock.taskmanagerapi.mapper.UserMapper;

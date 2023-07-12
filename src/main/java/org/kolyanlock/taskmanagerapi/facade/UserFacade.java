@@ -1,9 +1,9 @@
 package org.kolyanlock.taskmanagerapi.facade;
 
-import org.kolyanlock.taskmanagerapi.dto.UserDeletedDTO;
-import org.kolyanlock.taskmanagerapi.dto.UserInfoDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserAuthDTO;
 import org.kolyanlock.taskmanagerapi.dto.UserDTO;
+import org.kolyanlock.taskmanagerapi.dto.UserDeletedDTO;
+import org.kolyanlock.taskmanagerapi.dto.UserInfoDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.Authentication;
